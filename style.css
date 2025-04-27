@@ -1,0 +1,56 @@
+/* importo font per h1 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* importo font per body */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* importo font per paragrafo */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Resetta margini e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    color: #264653;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.05; /* ridotto lo spazio tra le righe */
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("img/sfondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #2E2E2E;
+}
+
+#sfumatoreSfondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: -1;
+}
+
+p{
+    font-family: 'Nunito';
+    font-size: 22px;
+    line-height: 1.8;
+}
