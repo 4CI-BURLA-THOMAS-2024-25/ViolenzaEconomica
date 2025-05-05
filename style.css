@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     font-family: 'Merriweather';
-    color: #9b5de5;
+    color: #2a9d8f;
     font-size: 30px;
 }
 
@@ -62,6 +62,7 @@ p{
     font-family: 'Nunito';
     font-size: 22px;
     line-height: 1.8;
+    text-align: justify;
 }
 
 .paragrafo {
@@ -104,4 +105,21 @@ p{
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
+}
+
+/* contenitore del sottotitolo e del bottone per espandere paragrafo */
+.testata {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+/* bottone per espandere paragrafo */
+.bottoneEspandi {
+    font-family: 'Merriweather';
+    color: #e76f51;
+    font-size: 28px;
 }
