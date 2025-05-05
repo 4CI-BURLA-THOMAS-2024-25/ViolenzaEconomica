@@ -54,3 +54,12 @@ p{
     font-size: 22px;
     line-height: 1.8;
 }
+
+.paragrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 20px;
+}
