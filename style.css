@@ -74,6 +74,12 @@ p{
     padding: 0 20px;
 }
 
+/* contenitore per testo e links dei paragrafi */
+.contenitoreTesto {
+    display: flex;
+    flex-direction: column; /* Paragrafo sopra, link sotto */
+}
+
 .bottone {
     width: 100px;
     height: 100px;
@@ -139,4 +145,4 @@ nav {
     font-size: 20px;
     color: #e76f51;
     border-color: #2E2E2E;
-  }
+}
