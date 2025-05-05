@@ -75,7 +75,6 @@ p{
 }
 
 .bottone {
-    transition: transform 0.3s ease-in-out;
     width: 100px;
     height: 100px;
 }
@@ -103,8 +102,6 @@ p{
     height: auto;
     width: 33%;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 /* contenitore del sottotitolo e del bottone per espandere paragrafo */
@@ -123,3 +120,23 @@ p{
     color: #e76f51;
     font-size: 28px;
 }
+
+/* menu di navigazione tra pagine */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f4f1de;
+    position: sticky;
+    top: 0;
+}
+
+/* singole celle del menu */
+.cellaMenu {
+    /* ogni cella ha la stessa larghezza */
+    flex: 1; 
+    text-align: center; 
+    font-size: 20px;
+    color: #e76f51;
+    border-color: #2E2E2E;
+  }
