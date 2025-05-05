@@ -63,3 +63,27 @@ p{
     gap: 30px;
     padding: 0 20px;
 }
+
+.bottone {
+    transition: transform 0.3s ease-in-out;
+    width: 100px;
+    height: 100px;
+}
+
+.bottone:hover {
+    transform: scale(1.1);
+}
+
+.bottone-destra {
+    display: block;
+    position: absolute;
+    right: 5px;
+}
+
+.bottone-sinistra {
+    display: block;
+    position: absolute;
+    left: 5px;
+    /* specchio in orizzontale */
+    transform: rotate(180deg);
+}
