@@ -7,6 +7,9 @@
 /* importo font per paragrafo */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* importo font per sottotitolo h2 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 /* Resetta margini e padding */
 * {
     margin: 0;
@@ -26,6 +29,12 @@ h1 {
     line-height: 1.05; /* ridotto lo spazio tra le righe */
     padding: 10px;
     margin: 10px;
+}
+
+h2 {
+    font-family: 'Merriweather';
+    color: #9b5de5;
+    font-size: 30px;
 }
 
 body {
@@ -86,4 +95,13 @@ p{
     left: 5px;
     /* specchio in orizzontale */
     transform: rotate(180deg);
+}
+
+.immagineParagrafo {
+    flex-basis: 30%;
+    height: auto;
+    width: 33%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
 }
