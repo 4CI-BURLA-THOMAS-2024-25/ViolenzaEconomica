@@ -1,86 +1,108 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Violenza economica</title>
-        <!-- favicon -->
-        <link rel="icon" type="image/png" href="../img/favicon.png">
-        <!-- foglio di style css -->
-        <link rel="stylesheet" href="../style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violenza economica</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+</head>
 
-    <body>
-        <div id="sfumatoreSfondo"></div>
+<body>
+    <div id="sfumatoreSfondo"></div>
 
-        <h1>La violenza economica tra cittadini</h1>
+    <h1>La violenza economica tra cittadini</h1>
 
-        <nav>
-            <a class="cellaMenu" href="../index.html">Homepage</a>
-            <a class="cellaMenu" href="cittadiniCittadini.html">Violenza economica tra cittadini</a>
-            <a class="cellaMenu" href="cittadiniStato.html">Violenza economica tra Stato e cittadini</a>
-            <a class="cellaMenu" href="StatoStato.html">Violenza economica tra Stati</a>
-        </nav>
+    <nav>
+        <a class="cellaMenu" href="../index.html">Homepage</a>
+        <a class="cellaMenu" href="cittadiniCittadini.html">Violenza economica tra cittadini</a>
+        <a class="cellaMenu" href="cittadiniStato.html">Violenza economica tra Stato e cittadini</a>
+        <a class="cellaMenu" href="StatoStato.html">Violenza economica tra Stati</a>
+    </nav>
 
-        <div class="paragrafo">
-            <h2>Definizione e manifestazioni</h2><br>
-            <p id="p1">
-                La violenza economica tra cittadini è una forma di abuso che solitamente si manifesta quando una persona limita o controlla l'accesso di un'altra alle risorse finanziarie. Secondo l'Istituto Europeo per l'Uguaglianza di Genere, include qualsiasi atto che causi un danno economico, come la limitazione dell’accesso al lavoro, all’istruzione o alle risorse finanziarie.
-            </p>
-            <img class="immagineParagrafo" src="../img/1cittadiniCittadini.jpg" alt="Violenza economica tra cittadini">
-        </div>
+    <button onclick="mostraFonti()" class="bottoneEspandi">Mostra fonti</button>
+    <div id="fontiBox" style="display:none; margin-top:10px; padding:10px; border:1px solid #ccc;">
+        <h3>Fonti principali:</h3>
+        <ul>
+            <li><a href="https://www.alfemminile.com/culture/violenza-economica-donne/">alfemminile.com</a></li>
+            <li><a href="https://www.istat.it/statistiche-per-temi/focus/violenza-sulle-donne/il-fenomeno/violenza-dentro-e-fuori-la-famiglia/il-numero-delle-vittime-e-le-forme-di-violenza/">ISTAT</a></li>
+            <li><a href="https://www.civicrazia.org/violenza-economica-una-forma-grave-e-insidiosa-di-violenza-domestica-cass-pen-n-1268-del-13-gennaio-2025">Civicrazia</a></li>
+            <li><a href="https://www.weworld.it/news-e-storie/news/cio-che-e-tuo-e-mio-fare-i-conti-con-la-violenza-economica-il-nostro-report-sulla-violenza-economica-sulle-donne-in-italia">WeWorld</a></li>
+            <li><a href="https://youtu.be/gQqzOoIZ_f0?si=gkhOb4cPUQGxiRXE">Parole in Circolo - YouTube</a></li>
+        </ul>
+    </div>
 
-        <br>
+    <button onclick="cambiaStile()" class="bottoneEspandi" style="margin-top:10px;">Cambia stile</button>
 
-        <div class="paragrafo">
-            <h2>Dati statistici</h2><br>
-            <p id="p2">
-                Un’indagine del 2023 mostra che il 49% delle donne italiane ha subito episodi di violenza economica, percentuale che sale al 67% tra le donne separate o divorziate. Il 28% di queste ha subito decisioni finanziarie unilaterali dal partner.
-            </p>
-            <img class="immagineParagrafo" src="../img/2cittadiniCittadini.jpg" alt="Violenza economica tra cittadini">
-        </div>
+    <div class="paragrafo">
+        <h2>Definizione e manifestazioni</h2><br>
+        <p id="p1">
+            La violenza economica tra cittadini è una forma di abuso che si verifica quando una persona limita o controlla le risorse economiche di un’altra, impedendole di essere indipendente. Secondo l'Istituto Europeo per l'Uguaglianza di Genere, può includere il divieto di lavorare, l’accesso negato al conto corrente, o l’obbligo di giustificare ogni spesa. Secondo WeWorld, è violenza economica anche quando una persona viene esclusa dalle decisioni finanziarie o obbligata a chiedere il permesso per fare acquisti.
+        </p>
+        <img class="immagineParagrafo" src="../img/1cittadiniCittadini.jpg" alt="Violenza economica tra cittadini">
+    </div>
 
-        <br>
+    <br>
 
-        <div class="paragrafo">
-            <h2>Riconoscimento legale:</h2><br>
-            <p id="p3">
-                La Corte di Cassazione (sentenza n. 1268 del 2025) ha riconosciuto la violenza economica come forma di maltrattamento. Impedire l’indipendenza economica del partner è un reato.
-            </p>
-        </div>
+    <div class="paragrafo">
+        <h2>Dati statistici</h2><br>
+        <p id="p2">
+            Un’indagine realizzata da WeWorld con Ipsos nel 2023 ha rivelato che il 49% delle donne italiane ha vissuto almeno un episodio di violenza economica. Tra le donne separate o divorziate, la percentuale sale al 67%. Il 28% ha subito decisioni economiche prese dal partner senza essere consultata. Il 37% non riceve l’assegno per i figli concordato.
+        </p>
+        <img class="immagineParagrafo" src="../img/2cittadiniCittadini.jpg" alt="Violenza economica tra cittadini">
+    </div>
 
-        <br>
+    <br>
 
-        <div class="paragrafo">
-            <h2>Percezione pubblica:</h2><br>
-            <p id="p4">
-                Solo il 59% degli italiani la considera grave. Il 27% pensa che vada risolta all’interno della coppia, il 15% la attribuisce a comportamenti provocatori delle donne.
-            </p>
-        </div>
+    <div class="paragrafo">
+        <h2>Riconoscimento legale:</h2><br>
+        <p id="p3">
+            Con la sentenza n. 1268 del 13 gennaio 2025, la Corte di Cassazione ha stabilito che la violenza economica è una forma di maltrattamento. Impedire al partner di raggiungere l’indipendenza economica attraverso atti di controllo è considerato reato.
+        </p>
+     
+    </div>
 
-        <br>
+    <br>
 
-        <div class="paragrafo">
-            <h2>Iniziative di supporto:</h2><br>
-            <p id="p5">
-                Il "reddito di libertà" è un contributo per aiutare le donne vittime di violenza. Nel 2020, su 3.283 richieste, solo 600 contributi sono stati erogati, con tassi molto bassi in alcune regioni.
-            </p>
-        </div>
+    <div class="paragrafo">
+        <h2>Percezione pubblica:</h2><br>
+        <p id="p4">
+            Solo il 59% degli italiani riconosce la violenza economica come un abuso grave. Il 27% crede che questi problemi vadano risolti in famiglia. Il 15% pensa che la colpa sia di comportamenti provocatori da parte delle donne. Il 16% degli uomini e il 6% delle donne ritiene giusto che l’uomo comandi in casa.
+        </p>
+        <img class="immagineParagrafo" src="../img/4cittadiniCittadini.jpg" alt="Percezione pubblica">
+    </div>
 
-        <br>
+    <br>
 
-        <!-- contenitore per le frecce di pagina successiva -->
-        <div id="navigatore">
-            <!-- Bottone per andare alla pagina successiva -->
-            <a href="cittadiniStato.html" class="bottone-destra">
-                <img src="../img/avanti.png" alt="Avanti" class="bottone">
-            </a>
+    <div class="paragrafo">
+        <h2>Iniziative di supporto:</h2><br>
+        <p id="p5">
+            Il “reddito di libertà” è un contributo economico destinato alle donne vittime di violenza per favorire l’autonomia. Nel 2020 sono state presentate 3.283 richieste, ma solo 600 contributi sono stati erogati. In regioni come Umbria, Puglia, Emilia-Romagna e Piemonte il tasso di erogazione è stato inferiore al 15%.
+        </p>
+        <img class="immagineParagrafo" src="../img/5cittadiniCittadini.jpg" alt="Reddito di libertà">
+    </div>
 
-            <!-- Bottone per andare alla pagina precedente -->
-            <a href="../index.html" class="bottone-sinistra">
-                <img src="../img/avanti.png" alt="Indietro" class="bottone">
-            </a>
-        </div>
-        <script src="../script/cittadiniCittadini.js"></script>
-    </body>
+    <br>
+
+    <div class="paragrafo">
+        <h2>Violenza economica spiegata nel video</h2><br>
+        <p id="p6">
+            Il video “La violenza economica spiegata bene” (Parole in Circolo) descrive situazioni quotidiane in cui una persona viene privata del controllo sul denaro. Alcuni esempi citati sono: impedire al partner di lavorare, obbligarlo a consegnare lo stipendio, controllare ogni acquisto. Tutti questi comportamenti non sono gesti di cura, ma modi per esercitare potere. Come affermato nel video, la violenza economica è “controllare il tempo, le decisioni e il denaro di un’altra persona, senza il suo consenso”. Le vittime spesso non si accorgono subito di subirla, perché viene normalizzata all’interno della coppia.
+        </p>
+    </div>
+
+    <br>
+
+    <div id="navigatore">
+        <a href="cittadiniStato.html" class="bottone-destra">
+            <img src="../img/avanti.png" alt="Avanti" class="bottone">
+        </a>
+        <a href="../index.html" class="bottone-sinistra">
+            <img src="../img/avanti.png" alt="Indietro" class="bottone">
+        </a>
+    </div>
+
+    <script src="../script/cittadiniCittadini.js"></script>
+</body>
 </html>
+
