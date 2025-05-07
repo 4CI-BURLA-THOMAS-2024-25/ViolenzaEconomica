@@ -9,6 +9,23 @@ for(let i = 0; i < bottoniEspanditori.length; i++){
     bottoniEspanditori[i].addEventListener("click", () => gestisciParagrafo(i));
 }
 
+//prelevo bottone per cambiare stile
+const bottoneStile = document.getElementById("bottoneStile");
+bottoneStile.addEventListener("click", () => cambiaStile());
+
+//funzione che cambia stile
+function cambiaStile() {
+    const corpo = document.body;
+
+    if (corpo.style.backgroundColor === "black") {
+        corpo.style.backgroundColor = "white";
+        corpo.style.color = "black";
+    } else {
+        corpo.style.backgroundColor = "black";
+        corpo.style.color = "white";
+    }
+}
+
 //funzione che stabilisce se espandere o comprimere il paragrafo
 function gestisciParagrafo(i){
     //esamino testo del bottone per capire se espandere o comprimere paragrafo

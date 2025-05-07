@@ -120,8 +120,8 @@ p{
     padding: 0 20px;
 }
 
-/* bottone per espandere paragrafo */
-.bottoneEspandi {
+/* bottone per espandere paragrafo o cambiare stile */
+.bottoneEspandi, #bottoneStile {
     font-family: 'Merriweather';
     color: #e76f51;
     font-size: 28px;
@@ -145,13 +145,4 @@ nav {
     font-size: 20px;
     color: #e76f51;
     border-color: #2E2E2E;
-}
-
-.dark-mode {
-    background-color: #1e1e1e;
-    color: #ffffff;
-}
-
-.dark-mode a {
-    color: #9cdcff;
 }
