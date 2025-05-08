@@ -10,6 +10,11 @@
 /* importo font per sottotitolo h2 */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
+
+/* importo font per links */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Resetta margini e padding */
 * {
     margin: 0;
@@ -145,4 +150,16 @@ nav {
     font-size: 20px;
     color: #e76f51;
     border-color: #2E2E2E;
+}
+
+a {
+    font-family: 'Roboto';
+    font-size: 22px;
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: #007BFF; /* Colore blu per i link */
+}
+
+a:hover {
+    text-decoration: underline; /* Sottolinea al passaggio del mouse */
+    cursor: pointer;
 }
