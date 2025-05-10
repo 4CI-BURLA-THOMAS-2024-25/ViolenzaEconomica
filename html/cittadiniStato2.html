@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Violenza economica</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="../img/favicon.png">
+        <!-- foglio di style css -->
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <!-- componente per sfumare l'immagine di sfondo -->
+        <div id="sfumatoreSfondo"></div>
+
+        <h1>La violenza economica nelle relazioni Stato-cittadino: Oppressione Fiscale e Disuguaglianza Strutturale</h1>
+        <nav>
+            <a class="cellaMenu" href="../index.html">Homepage</a>
+            <a class="cellaMenu" href="cittadiniCittadini.html">Violenza economica tra cittadini</a>
+            <a class="cellaMenu" href="cittadiniStato.html">Violenza economica tra Stato e cittadini</a>
+            <a class="cellaMenu" href="StatoStato.html">Violenza economica tra Stati</a>
+        </nav>
+
+        <button id="bottoneStile">Cambia stile</button>
+        
+        <ul>
+            <li>
+                <div class="testata">
+                    <button class="bottoneEspandi">Espandi</button>
+                    <h2>Oppressione fiscale</h2>
+                </div>
+
+                <!-- contenitore per allineare testo a sinistra e immagine a destra -->
+                <div id="paragrafoUNO" class="paragrafo" style="display: block">
+                    <div class="contenitoreTesto">
+                        <p>L’oppressione fiscale si manifesta quando il sistema di tassazione viene percepito non solo come un onere economico, ma come un meccanismo ingiusto e regressivo. In questo contesto, il carico fiscale — misurato come rapporto tra le entrate tributarie e il PIL — risulta particolarmente elevato per i contribuenti onesti, che non dispongono delle medesime strategie di evasione o di pianificazione fiscale che favoriscono le élite.</p>
+                        
+                        <ol>
+                            <li>
+                                <h3>Definizione e Contesto Storico</h3>
+                                <p>Nei contesti in cui le politiche fiscali limitano la capacità economica dei cittadini, come in Italia, il “peso reale” delle imposte diventa particolarmente gravoso per chi rispetta le normative. Il grafico a barre sottostante mette a confronto la pressione fiscale ufficiale (42,5%) e quella stimata effettivamente applicata (47,4%) sui contribuenti onesti. La discrepanza, anche se in apparenza contenuta, indica che chi può usufruire di meccanismi di pianificazione fiscale e sfruttare scappatoie – tra cui commissioni di consulenti specializzati –, beneficia di un sistema in cui il carico reale viene in parte “nascosto” o diluito. Questo fenomeno evidenzia una dinamica di oppressione economica che penalizza chi non ha mezzi alternativi per alleggerire il peso delle imposte.</p>
+                                
+                                <!-- Grafico a Barre: Pressione Fiscale Confronto -->
+                                <div class="chart-container immagineParagrafo">
+                                    <canvas id="chartOppBar"></canvas>
+                                </div>
+
+                                <p><em>Grafico 1: Confronto della Pressione Fiscale</em><br>
+                                    Il grafico mostra come la pressione fiscale ufficiale, pari al 42,5%, si contrapponga a quella stimata (47,4%) per i contribuenti onesti. La differenza è il riflesso delle misure evasive, che permettono ad alcuni di ottenere benefici non accessibili a chi rispetta integralmente il sistema.
+                                </p>
+                            </li>
+
+                            <br>
+
+                            <li>
+                                <h3>Evoluzione della Pressione Fiscale</h3>
+                                <p>Il grafico a linee qui di seguito analizza l’andamento della pressione fiscale in Italia dal 2018 al 2023. I dati, provenienti da fonti ufficiali quali il MEF e l’ISTAT, consentono di osservare come l'intero sistema risponda alle politiche economiche adottate nel tempo. Durante alcuni anni, l’aumento della pressione fiscale può riflettere misure di austerità o interventi per contrastare l’evasione, mentre in altri momenti si possono verificare delle flessioni a seguito di riforme orizzontali per rilanciare la spesa pubblica.</p>
+                                
+                                <!-- Grafico a Linee: Evoluzione Pressione Fiscale -->
+                                <div class="chart-container">
+                                    <canvas id="chartOppLine"></canvas>
+                                </div>
+
+                                <p><em>Grafico 2: Evoluzione della Pressione Fiscale in Italia</em><br>
+                                    In questo grafico è possibile notare come le variazioni annuali evidenzino cicli e fluttuazioni, segnando l’impatto diretto delle politiche fiscali e delle crisi economiche sul carico fiscale applicato alla popolazione.
+                                </p>
+                            </li>
+
+                            <li>
+                                <h3>Soluzioni e Proposte di Riforma</h3>
+                                <p>Per attenuare il fenomeno dell’oppressione fiscale sono state avanzate numerose proposte. La riforma del sistema fiscale, con l’obiettivo di passare a una struttura nettamente più progressiva, è una delle principali soluzioni suggerite. Accanto a ciò, l’efficientamento della lotta all’evasione, attraverso investimenti in tecnologie avanzate e controlli più stringenti, mira a ridurre il divario tra il carico dichiarato e quello reale. Infine, l’adozione di una redistribuzione mirata – utilizzando in maniera trasparente i proventi fiscali per finanziare servizi essenziali quali l’istruzione e la sanità – può contribuire significativamente a un riposizionamento equilibrato delle risorse.
+                                
+                                    <ul>
+                                        <li><strong>Riforma del sistema fiscale:</strong> Migliorare la progressività delle aliquote e garantire che chi guadagna di più contribuisca in misura maggiore, equilibrando il sistema complessivo.</li>
+                                        <li><strong>Efficientamento della lotta all’evasione:</strong> Investimenti in tecnologie avanzate e rafforzamento dei controlli per ridurre il divario tra quanto dovuto e quanto effettivamente versato.</li>
+                                        <li><strong>Redistribuzione mirata:</strong> Utilizzo trasparente e orientato dei proventi fiscali per finanziare servizi pubblici essenziali, in modo da ridurre le disparità territoriali e sociali.</li>
+                                    </ul>
+                                    <p>
+                                        Un sistema fiscale riformato e più equo potrebbe così contribuire a ridurre radicalmente le disuguaglianze economiche e a rafforzare il patto sociale, rendendo il paese più resiliente alle crisi e più giusto per tutti i cittadini.
+                                    </p>
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>
