@@ -66,7 +66,7 @@ const ctxOppBar = document.getElementById('chartOppBar').getContext('2d');
 const chartOppBar = new Chart(ctxOppBar, {
   type: 'bar',
   data: {
-    labels: ['Contribuenti Onesti', 'Evasori Stimati'],
+    labels: ['Pressione Fiscale Teorica su tutti i Contribuenti', 'Pressione Fiscale Effettiva sui Contribuenti Onesti'],
     datasets: [{
       label: 'Pressione Fiscale (%)',
       data: [42.5, 47.4],
@@ -93,31 +93,7 @@ const chartOppBar = new Chart(ctxOppBar, {
 });
 
 // ------------------------------
-// Grafico 2: Linee - Evoluzione della Pressione Fiscale
-// Dati ipotetici (e validate con dati ufficiali ottenuti da MEF/ISTAT)
-const ctxOppLine = document.getElementById('chartOppLine').getContext('2d');
-const chartOppLine = new Chart(ctxOppLine, {
-  type: 'line',
-  data: {
-    labels: ['2018','2019','2020','2021','2022','2023'],
-    datasets: [{
-      label: 'Pressione Fiscale (%)',
-      data: [41, 42, 43.5, 42.5, 44, 43],
-      fill: false,
-      borderColor: 'rgba(54, 162, 235, 1)',
-      tension: 0
-    }]
-  },
-  options: {
-    responsive: true,
-    plugins: {
-      title: {
-        display: true,
-        text: 'Evoluzione della Pressione Fiscale in Italia'
-      }
-    }
-  }
-});
+// Grafico 2: Linee - Evoluzione della Pressione Fiscale (fatto con un'immagine)
 
 // ------------------------------
 // Grafico 3: Torta - Distribuzione della Ricchezza (Disuguaglianza Strutturale)

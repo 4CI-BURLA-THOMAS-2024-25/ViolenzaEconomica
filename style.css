@@ -186,6 +186,13 @@ a:hover {
     align-items: center; /* Opzionale: solo se vuoi anche il centraggio verticale */
 }
 
+.chart-container img {
+    max-width: 80%; /* Permette di adattarsi alle dimensioni del contenitore */
+    max-height: 80%; /* Limita l'altezza dell'immagine */
+    object-fit: contain; /* Evita di distorcere l'immagine */
+}
+
+
 ol {
     padding-left: 20px; /* Spazio tra margine e numero */
     margin-left: 0;        /* Nessuna indentazione extra */

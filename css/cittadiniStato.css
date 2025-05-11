@@ -76,12 +76,12 @@ section h3 {
 /* Grafici */
 .chart-container {
     margin: 20px 0;
+    max-width: 80vw;
     max-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center; /* Opzionale: solo se vuoi anche il centraggio verticale */
 }
-
 
 /* Footer */
 footer p {
